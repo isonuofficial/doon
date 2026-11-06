@@ -37,7 +37,7 @@ export const StoryPage: React.FC = () => {
             className="lg:col-span-7 rounded-3xl overflow-hidden border border-[#D4AF37]/25 shadow-2xl h-[440px] relative"
           >
             <img
-              src="/images/brand/exterior-night.jpg"
+              src="./images/brand/exterior-night.jpg"
               alt="Doon Valley Night Facade"
               className="w-full h-full object-cover"
             />
@@ -60,7 +60,7 @@ export const StoryPage: React.FC = () => {
             className="lg:col-span-5 rounded-3xl overflow-hidden border border-[#D4AF37]/25 shadow-2xl h-[440px] relative"
           >
             <img
-              src="/images/brand/entrance-warm.jpg"
+              src="./images/brand/entrance-warm.jpg"
               alt="Doon Valley Warm Interior"
               className="w-full h-full object-cover"
             />
@@ -134,7 +134,7 @@ export const StoryPage: React.FC = () => {
         <div className="rounded-3xl bg-[#111116] border border-[#D4AF37]/30 text-[#F5F2EB] p-10 sm:p-14 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-2xl">
           <div className="flex items-center gap-6">
             <img
-              src="/images/brand/logo.jpg"
+              src="./images/brand/logo.jpg"
               alt="Doon Valley Crest"
               className="w-24 h-24 rounded-full object-cover border-2 border-[#D4AF37] shrink-0"
             />

@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3.5">
               <div className="w-14 h-14 rounded-full border-2 border-[#D4AF37] bg-[#09090B] overflow-hidden shrink-0">
                 <img
-                  src="/images/brand/logo.jpg"
+                  src="./images/brand/logo.jpg"
                   alt="Doon Valley Logo"
                   className="w-full h-full object-cover"
                 />

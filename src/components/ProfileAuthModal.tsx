@@ -161,7 +161,7 @@ export const ProfileAuthModal: React.FC = () => {
             <div className="p-6 sm:p-8 max-w-md mx-auto w-full space-y-6">
               <div className="text-center space-y-2">
                 <img
-                  src="/images/brand/logo.jpg"
+                  src="./images/brand/logo.jpg"
                   alt="Doon Valley Logo"
                   className="w-20 h-20 rounded-full border-2 border-[#D4AF37] mx-auto object-cover"
                 />

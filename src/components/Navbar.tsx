@@ -53,7 +53,7 @@ export const Navbar: React.FC = () => {
         >
           <div className="w-12 h-12 rounded-full border-2 border-[#D4AF37] bg-[#09090B] overflow-hidden shadow-[0_0_20px_rgba(212,175,55,0.25)] group-hover:scale-105 transition-transform shrink-0">
             <img
-              src="/images/brand/logo.jpg"
+              src="./images/brand/logo.jpg"
               alt="Doon Valley Logo"
               className="w-full h-full object-cover"
             />

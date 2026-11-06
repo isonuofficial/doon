@@ -209,7 +209,7 @@ export const HeroSection: React.FC = () => {
               <div className="absolute bottom-5 left-5 right-5 bg-[#09090B]/90 backdrop-blur-md border border-[#D4AF37]/40 rounded-2xl p-3.5 flex items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <img
-                    src="/images/brand/logo.jpg"
+                    src="./images/brand/logo.jpg"
                     alt="Doon Valley Logo"
                     className="w-11 h-11 rounded-full object-cover border border-[#D4AF37] shrink-0"
                   />

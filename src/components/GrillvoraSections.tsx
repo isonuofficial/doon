@@ -151,7 +151,7 @@ export const BrandPromiseSection: React.FC = () => {
         >
           <div className="rounded-3xl border border-[#D4AF37]/35 overflow-hidden h-[380px] sm:h-[450px] bg-[#09090B] relative shadow-2xl">
             <img
-              src="/images/brand/exterior-night.jpg"
+              src="./images/brand/exterior-night.jpg"
               alt="Doon Valley Kraków Exterior"
               className="w-full h-full object-cover"
             />
@@ -159,7 +159,7 @@ export const BrandPromiseSection: React.FC = () => {
             <div className="absolute bottom-5 left-5 right-5 bg-[#09090B]/90 backdrop-blur-md border border-[#D4AF37]/35 rounded-2xl p-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <img
-                  src="/images/brand/logo.jpg"
+                  src="./images/brand/logo.jpg"
                   alt="Doon Valley Logo"
                   className="w-11 h-11 rounded-full border border-[#D4AF37] object-cover"
                 />
@@ -363,7 +363,7 @@ export const LifestyleBentoSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-5 h-auto md:h-[520px]">
           <div className="md:col-span-2 md:row-span-2 rounded-3xl border border-[#D4AF37]/30 overflow-hidden relative group min-h-[280px]">
             <img
-              src="/images/brand/exterior-night.jpg"
+              src="./images/brand/exterior-night.jpg"
               alt="Doon Valley Kraków Storefront"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
@@ -382,7 +382,7 @@ export const LifestyleBentoSection: React.FC = () => {
 
           <div className="md:col-span-1 md:row-span-2 rounded-3xl border border-white/10 overflow-hidden relative group min-h-[260px]">
             <img
-              src="/images/brand/entrance-warm.jpg"
+              src="./images/brand/entrance-warm.jpg"
               alt="Doon Valley Warm Entrance"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
@@ -413,7 +413,7 @@ export const LifestyleBentoSection: React.FC = () => {
 
           <div className="md:col-span-1 md:row-span-1 rounded-3xl border border-[#D4AF37]/30 bg-[#09090B] p-5 flex flex-col items-center justify-center text-center min-h-[210px]">
             <img
-              src="/images/brand/logo.jpg"
+              src="./images/brand/logo.jpg"
               alt="Doon Valley Emblem"
               className="w-24 h-24 rounded-full border border-[#D4AF37] object-cover mb-2.5"
             />

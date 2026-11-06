@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  --bg-obsidian: #09090b;
+  --bg-charcoal: #111115;
+  --bg-card: #16161c;
+  --bg-elevated: #1e1e26;
+  --gold-primary: #d4af37;
+  --gold-bright: #f5c542;
+  --gold-muted: #a68426;
+  --text-ivory: #f5f2eb;
+  --text-Champagne: #c8c2b4;
+  --border-gold: rgba(212, 175, 55, 0.24);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #09090b;
+    color: #f5f2eb;
+  }
+
+  h1, h2, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-royal {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.08em;
+  }
+
+  .font-sans-ui {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Luxury Black & Gold Surfaces */
+.lux-nav {
+  background: rgba(9, 9, 11, 0.88);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
+}
+
+.lux-card {
+  background: linear-gradient(180deg, #16161c 0%, #111115 100%);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.lux-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 175, 55, 0.55);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.85),
+    0 0 25px -5px rgba(212, 175, 55, 0.14);
+}
+
+.lux-btn-gold {
+  background: linear-gradient(135deg, #f5c542 0%, #d4af37 55%, #b58d23 100%);
+  color: #09090b;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 238, 170, 0.6);
+  box-shadow: 0 8px 24px -6px rgba(212, 175, 55, 0.45);
+  transition: all 0.22s ease;
+}
+
+.lux-btn-gold:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+  box-shadow: 0 12px 28px -4px rgba(212, 175, 55, 0.6);
+}
+
+.lux-btn-gold:active {
+  transform: translateY(1px);
+}
+
+.lux-btn-outline {
+  background: rgba(255, 255, 255, 0.03);
+  color: #f5f2eb;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 9999px;
+  border: 1px solid rgba(212, 175, 55, 0.38);
+  transition: all 0.22s ease;
+}
+
+.lux-btn-outline:hover {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: #d4af37;
+  color: #f5c542;
+  transform: translateY(-1px);
+}
+
+.lux-badge-gold {
+  background: rgba(212, 175, 55, 0.12);
+  color: #f5c542;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 9999px;
+}
+
+.lux-price-pill {
+  background: #09090b;
+  color: #f5c542;
+  border: 1px solid #d4af37;
+  border-radius: 9999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.75);
+  font-weight: 800;
+}
+
+.lux-hero-arch {
+  border-top-left-radius: 260px;
+  border-top-right-radius: 260px;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9),
+    0 0 40px -10px rgba(212, 175, 55, 0.18);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fff6d6 0%, #f5c542 45%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Infinite Marquee Animation */
+@keyframes gv-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-gv-marquee {
+  display: flex;
+  width: max-content;
+  animation: gv-marquee 32s linear infinite;
+}
+
+.animate-gv-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Hide scrollbar for category pills */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
